@@ -7,21 +7,9 @@
 
 ## 有赞云App SDK(Android端)
 
-有赞云AppSDK是为移动端应用打造的电商交易系统, 将有赞的交易服务在APP内轻松集成.
+为了满足移动应用搭建商城的需求，有赞云将有赞积累多年的电商交易系统开放，移动开发者**通过一个 SDK 便可以在 App 内集成有赞提供的整个交易服务**，除了享受完善的商城功能、丰富的营销玩法，更有有赞强劲的技术及服务作保障，实现低成本、高效率、强融合的移动电商方案，快速获得 App 流量的商业化变现。
 
-有赞AppSDK提供两种版本: **基础版**和**原生版**.
-
-***两者的区别***:
-
-* 基础版基于webview将有赞提供的Html5页面嵌入到App;
-* 原生版着力于提供原生化的页面体验, 在后续更新升级中不断优化体验(部分页面还未原生化);
-* 基础版中现商品详情页面需登录可见, 原生版中无需登录即可浏览.
-
-***两者的相同点***:
-
-* 都是基于视图(View)对外提供页面加载服务, 统一的调用方式基本上更换视图类即可完成SDK切换.
-
-可根据您实际业务中对页面的要求,  选择其中一种(也可混合使用)客户端产品接入.
+有赞AppSDK混合版，在 H5 版的基础上，提供部分原生页面，包括商品详情页、订单列表页、购物车页、支付结果页等，这些页面提供了更加灵活的定制能力。目前该版本可以满足基本的电商业务场景, 但对于客服功能、数据分析功能及部分复杂的营销功能，会在后续的更新升级中不断优化体验。
 
 
 ## 引入
@@ -39,21 +27,15 @@ allprojects {
 
 在子项目build.gradle的dependencies中根据需求引入依赖:
 
-### 基础版SDK
+### 混合版SDK
 
 ``` groove
-compile 'com.youzanyun.open.mobile:basic:5.3.6'
-```
-
-### 原生版SDK
-
-``` groove
-compile 'com.youzanyun.open.mobile:hybrid:5.3.6'
+compile 'com.youzanyun.open.mobile:hybrid:6.0.0'
 ```
 
 ## 文档
 
-[下载PDF](https://b.yzcdn.cn/youzanyun/appsdk/Youzan-SDK-Android-Doc-v5.3.3.pdf)
+[下载PDF](https://b.yzcdn.cn/youzanyun/appsdk/Youzan-SDK-Android-Doc-v6.0.0.pdf)
 
 ## 交流&反馈
 
