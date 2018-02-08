@@ -29,6 +29,6 @@ public class MyApplication extends Application {
         super.onCreate();
 
         //初始化SDK
-        YouzanSDK.init(this, "client id", new YouzanHybridSDKAdapter());
+        YouzanSDK.init(this, "client_id", new YouzanHybridSDKAdapter());
     }
 }

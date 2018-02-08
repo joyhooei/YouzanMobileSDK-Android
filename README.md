@@ -38,12 +38,12 @@ allprojects {
 ### 混合版SDK
 
 ``` groove
-compile 'com.youzanyun.open.mobile:hybrid:6.1.0'
+compile 'com.youzanyun.open.mobile:hybrid:6.3.0'
 ```
 
 ## 文档
 
-[下载PDF](https://b.yzcdn.cn/youzanyun/appsdk/Youzan-SDK-Android-Doc-v6.1.0.pdf)
+[下载PDF](https://b.yzcdn.cn/youzanyun/appsdk/Youzan-SDK-Android-Doc-v6.3.0.pdf)
 
 ## 交流&反馈
 
