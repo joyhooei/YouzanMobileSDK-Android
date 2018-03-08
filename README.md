@@ -38,7 +38,7 @@ allprojects {
 ### 混合版SDK
 
 ``` groove
-compile 'com.youzanyun.open.mobile:hybrid:6.3.0'
+compile 'com.youzanyun.open.mobile:hybrid:6.3.2'
 ```
 
 ## 文档
